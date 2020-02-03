@@ -50,7 +50,7 @@ for i in range(len(spam)):
 IndexError: list assignment index out of range
 ```
 
-delete和for循环最好不要一起使用，因为spam的长度在每次删除之后都会变
+delete和for循环最好不要一起使用，因为spam的长度在每次删除之后都会变		
 
 
 
@@ -66,9 +66,9 @@ delete和for循环最好不要一起使用，因为spam的长度在每次删除�
 >
 > list.sort( ) 将列表值按American Standard Code for Information Interchange (ascii码)进行排列
 >
-> （摘自Al Sweigart的Python编程快速上手--让繁琐工作自动化）
+> （摘自Al Sweigart的Python编程快速上手--让繁琐工作自动化）		
 
-
+​		
 
 除了第一个方法index( )是查看一个值在列表中的下标之外，其余方法在以 "列表名.方法名 ( )"  的形式被调用后可以直接修改列表 （以append（）为例）
 
@@ -92,17 +92,21 @@ print(spam)
 None
 ```
 
-  
+  		
 
 
 
 ### 补充sort( )的用法
 
 1. 如果列表中既有str这种数据类型，也有int这种数据类型，Python会无法比较不同的值对他们进行排序
+
 2. list.sort ( ) 将列表值按ascii码进行排列  顺序为：数字、大写字母、小写字母
+
 3. list.sort (reverse=True) 按ascii码逆序排序 顺序为：小写字母、大写字母、数字
 
+   ​	
 
+   
 
 ### 随堂小练习
 
